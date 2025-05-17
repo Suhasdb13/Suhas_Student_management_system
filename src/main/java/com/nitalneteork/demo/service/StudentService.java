@@ -1,13 +1,10 @@
 package com.nitalneteork.demo.service;
 
 import com.nitalneteork.demo.entity.Student;
-import com.nitalneteork.demo.payload.StudentDto;
 import com.nitalneteork.demo.repository.StudentRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class StudentService {
